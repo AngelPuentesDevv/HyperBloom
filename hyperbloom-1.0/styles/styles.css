@@ -54,20 +54,26 @@ html {
     color: #81C77F;
 }
 
-.titulo-articulo {
-    font-size: 25px;
-    text-align: center;
-    height: 20px;
+.barra-navegacion a {
+    text-decoration: none;
 }
 
-.autor {
-    font-size: 15px;
+.barra-navegacion a:visited {
+    color: inherit;
+}
+
+.cabecera_articulo .titulo-articulo {
+    font-size: 30px;
+}
+
+.cabecera_articulo .autor {
+    font-size: 20px;
     text-align: left;
     height: 20px;
 }
 
-.fecha {
-    font-size: 13px;
+.cabecera_articulo .fecha {
+    font-size: 15px;
     text-align: left;
     height: 20px;
 }
